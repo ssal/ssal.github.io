@@ -47,13 +47,37 @@ table {
 	border-spacing: 0;
 }
 
+
+
+@font-face {
+    font-family: NanumGothicLight;
+    src: url(http://jangdan.github.io/static/NanumGothicLight.otf);
+}
+
+
 body {
+
     text-align: center;
+
 }
 
 #title {
+
+	margin-top: 32px;
+
+	padding: 32px;
+
     word-wrap: break-word;
     
-    font-family: monospace;
-    font-size: 16px;
+    font-family: "Courier New", NanumGothicLight;
+    font-size: 32px;
+
+}
+
+#window {
+
+    font-size: 32px;
+
+	margin: 32px;
+
 }
