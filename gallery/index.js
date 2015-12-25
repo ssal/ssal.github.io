@@ -48,7 +48,7 @@ function daeumjakpum(){
         var j = Math.floor(Math.random()*(posts.response.posts[0].photos.length));
 
         document.querySelector("#frame").innerHTML = '<a href = "http://ssalbap.tumblr.com/' + postid + '"><img src = "' + posts.response.posts[0].photos[j].original_size.url + '" width = 100%></img></a>';
- 
+
     });
 
 }
